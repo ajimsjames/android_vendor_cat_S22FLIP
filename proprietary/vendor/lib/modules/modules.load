@@ -1,0 +1,4 @@
+audio_q6_notifier.ko
+audio_apr.ko
+audio_adsp_loader.ko
+pronto_wlan.ko
