@@ -12,8 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/product/framework/ims-ext-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/ims-ext-common.jar \
     vendor/cat/s22flip/proprietary/product/framework/oat/arm/ims-ext-common.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/ims-ext-common.odex \
     vendor/cat/s22flip/proprietary/product/framework/oat/arm/ims-ext-common.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/ims-ext-common.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/AntHalService/oat/arm/AntHalService.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AntHalService/oat/arm/AntHalService.odex \
-    vendor/cat/s22flip/proprietary/system_ext/app/AntHalService/oat/arm/AntHalService.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AntHalService/oat/arm/AntHalService.vdex \
     vendor/cat/s22flip/proprietary/system_ext/app/AutoTests/AutoTests.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AutoTests/AutoTests.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/AutoTests/lib/arm/libqcomfm_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AutoTests/lib/arm/libqcomfm_jni.so \
     vendor/cat/s22flip/proprietary/system_ext/app/AutoTests/oat/arm/AutoTests.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AutoTests/oat/arm/AutoTests.odex \
@@ -24,10 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/system_ext/app/FM2/lib/arm/libqcomfm_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/FM2/lib/arm/libqcomfm_jni.so \
     vendor/cat/s22flip/proprietary/system_ext/app/FM2/oat/arm/FM2.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/FM2/oat/arm/FM2.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/FM2/oat/arm/FM2.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/FM2/oat/arm/FM2.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/NQNfcNci/NQNfcNci.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NQNfcNci/NQNfcNci.apk \
-    vendor/cat/s22flip/proprietary/system_ext/app/NQNfcNci/lib/arm/libsn100nfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NQNfcNci/lib/arm/libsn100nfc_nci_jni.so \
-    vendor/cat/s22flip/proprietary/system_ext/app/NQNfcNci/oat/arm/NQNfcNci.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NQNfcNci/oat/arm/NQNfcNci.odex \
-    vendor/cat/s22flip/proprietary/system_ext/app/NQNfcNci/oat/arm/NQNfcNci.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NQNfcNci/oat/arm/NQNfcNci.vdex \
     vendor/cat/s22flip/proprietary/system_ext/app/NetworkSetting/NetworkSetting.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NetworkSetting/NetworkSetting.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/NetworkSetting/oat/arm/NetworkSetting.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NetworkSetting/oat/arm/NetworkSetting.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/NetworkSetting/oat/arm/NetworkSetting.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NetworkSetting/oat/arm/NetworkSetting.vdex \
@@ -3090,7 +3084,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     xtra_t_app \
     FM2 \
-    AntHalService \
     CneApp \
     TimeService \
     CACertService \
