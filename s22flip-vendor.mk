@@ -100,19 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/cat/s22flip/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
     vendor/cat/s22flip/proprietary/system_ext/etc/seccomp_policy/perfservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/perfservice.policy \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/mapping/26.0.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/26.0.cil \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/mapping/27.0.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/27.0.cil \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/mapping/28.0.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/28.0.cil \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/mapping/29.0.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/29.0.cil \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/mapping/30.0.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/30.0.cil \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_file_contexts:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_file_contexts \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_hwservice_contexts:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_hwservice_contexts \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_mac_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_mac_permissions.xml \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_property_contexts:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_property_contexts \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_seapp_contexts:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_seapp_contexts \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_sepolicy.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_sepolicy.cil \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_sepolicy_and_mapping.sha256 \
-    vendor/cat/s22flip/proprietary/system_ext/etc/selinux/system_ext_service_contexts:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_service_contexts \
     vendor/cat/s22flip/proprietary/system_ext/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/spn-conf.xml \
     vendor/cat/s22flip/proprietary/system_ext/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest.xml \
     vendor/cat/s22flip/proprietary/system_ext/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/audiosphere.jar \
@@ -437,45 +424,9 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.0.so \
     vendor/cat/s22flip/proprietary/system_ext/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.0.so \
     vendor/cat/s22flip/proprietary/system_ext/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/CarrierConfig/CarrierConfig.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CarrierConfig/CarrierConfig.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/CarrierConfig/oat/arm/CarrierConfig.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CarrierConfig/oat/arm/CarrierConfig.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/CarrierConfig/oat/arm/CarrierConfig.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CarrierConfig/oat/arm/CarrierConfig.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/CellBroadcastAppPlatform/CellBroadcastAppPlatform.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CellBroadcastAppPlatform/CellBroadcastAppPlatform.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/CellBroadcastAppPlatform/oat/arm/CellBroadcastAppPlatform.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CellBroadcastAppPlatform/oat/arm/CellBroadcastAppPlatform.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/CellBroadcastAppPlatform/oat/arm/CellBroadcastAppPlatform.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CellBroadcastAppPlatform/oat/arm/CellBroadcastAppPlatform.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/EmergencyInfo/EmergencyInfo.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EmergencyInfo/EmergencyInfo.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/EmergencyInfo/oat/arm/EmergencyInfo.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EmergencyInfo/oat/arm/EmergencyInfo.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/EmergencyInfo/oat/arm/EmergencyInfo.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EmergencyInfo/oat/arm/EmergencyInfo.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleFeedback/GoogleFeedback.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleFeedback/oat/arm/GoogleFeedback.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleFeedback/oat/arm/GoogleFeedback.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleFeedback/oat/arm/GoogleFeedback.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleFeedback/oat/arm/GoogleFeedback.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleOneTimeInitializer/oat/arm/GoogleOneTimeInitializer.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleOneTimeInitializer/oat/arm/GoogleOneTimeInitializer.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleOneTimeInitializer/oat/arm/GoogleOneTimeInitializer.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleOneTimeInitializer/oat/arm/GoogleOneTimeInitializer.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleServicesFramework/oat/arm/GoogleServicesFramework.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleServicesFramework/oat/arm/GoogleServicesFramework.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/GoogleServicesFramework/oat/arm/GoogleServicesFramework.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/GoogleServicesFramework/oat/arm/GoogleServicesFramework.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/Launcher3QuickStepGo/Launcher3QuickStepGo.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Launcher3QuickStepGo/Launcher3QuickStepGo.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/Launcher3QuickStepGo/oat/arm/Launcher3QuickStepGo.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Launcher3QuickStepGo/oat/arm/Launcher3QuickStepGo.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/Launcher3QuickStepGo/oat/arm/Launcher3QuickStepGo.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Launcher3QuickStepGo/oat/arm/Launcher3QuickStepGo.vdex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/QtiDialer/QtiDialer.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QtiDialer/QtiDialer.apk \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/QtiDialer/oat/arm/QtiDialer.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QtiDialer/oat/arm/QtiDialer.odex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/QtiDialer/oat/arm/QtiDialer.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QtiDialer/oat/arm/QtiDialer.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/Settings/Settings.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/Settings.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/Settings/oat/arm/Settings.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/oat/arm/Settings.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/Settings/oat/arm/Settings.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/oat/arm/Settings.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/SetupWizard/SetupWizard.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/SetupWizard/SetupWizard.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/SetupWizard/oat/arm/SetupWizard.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/SetupWizard/oat/arm/SetupWizard.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/SetupWizard/oat/arm/SetupWizard.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/SetupWizard/oat/arm/SetupWizard.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/StorageManager/StorageManager.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/StorageManager/StorageManager.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/StorageManager/oat/arm/StorageManager.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/StorageManager/oat/arm/StorageManager.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/StorageManager/oat/arm/StorageManager.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/StorageManager/oat/arm/StorageManager.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/SystemUI/SystemUI.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/SystemUI/SystemUI.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/SystemUI/oat/arm/SystemUI.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/SystemUI/oat/arm/SystemUI.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/SystemUI/oat/arm/SystemUI.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/SystemUI/oat/arm/SystemUI.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/WallpaperCropper/WallpaperCropper.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperCropper/WallpaperCropper.apk \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/WallpaperCropper/oat/arm/WallpaperCropper.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperCropper/oat/arm/WallpaperCropper.odex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/WallpaperCropper/oat/arm/WallpaperCropper.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperCropper/oat/arm/WallpaperCropper.vdex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/com.qualcomm.location/oat/arm/com.qualcomm.location.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/com.qualcomm.location/oat/arm/com.qualcomm.location.odex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/com.qualcomm.location/oat/arm/com.qualcomm.location.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/com.qualcomm.location/oat/arm/com.qualcomm.location.vdex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/dpmserviceapp/oat/arm/dpmserviceapp.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/dpmserviceapp/oat/arm/dpmserviceapp.odex \
