@@ -7527,3 +7527,4 @@
 (typeattributeset base_typeattr_542_30_0 ((and (domain) ((not (vndservicemanager_30_0))))))
 (typeattribute base_typeattr_541_30_0)
 (typeattributeset base_typeattr_541_30_0 ((and (domain) ((not (coredomain init_30_0 vendor_init_30_0))))))
+(typeattributeset vendor_property_type (vendor_bluetooth_prop camera_prop vendor_qdcmss_prop vendor_ctl_vendor_mmid_prop vendor_nfc_nq_prop vendor_slpi_prop vendor_usb_prop vendor_wigig_prop vendor_ctl_vendor_wigigsvc_prop vendor_freq_prop))

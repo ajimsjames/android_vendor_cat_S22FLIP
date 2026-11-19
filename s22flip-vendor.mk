@@ -12,38 +12,30 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/product/framework/ims-ext-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/ims-ext-common.jar \
     vendor/cat/s22flip/proprietary/product/framework/oat/arm/ims-ext-common.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/ims-ext-common.odex \
     vendor/cat/s22flip/proprietary/product/framework/oat/arm/ims-ext-common.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/ims-ext-common.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/AutoTests/AutoTests.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AutoTests/AutoTests.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/AutoTests/lib/arm/libqcomfm_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AutoTests/lib/arm/libqcomfm_jni.so \
     vendor/cat/s22flip/proprietary/system_ext/app/AutoTests/oat/arm/AutoTests.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AutoTests/oat/arm/AutoTests.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/AutoTests/oat/arm/AutoTests.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/AutoTests/oat/arm/AutoTests.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/ConfURIDialer/ConfURIDialer.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/ConfURIDialer/ConfURIDialer.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/ConfURIDialer/oat/arm/ConfURIDialer.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/ConfURIDialer/oat/arm/ConfURIDialer.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/ConfURIDialer/oat/arm/ConfURIDialer.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/ConfURIDialer/oat/arm/ConfURIDialer.vdex \
     vendor/cat/s22flip/proprietary/system_ext/app/FM2/lib/arm/libqcomfm_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/FM2/lib/arm/libqcomfm_jni.so \
     vendor/cat/s22flip/proprietary/system_ext/app/FM2/oat/arm/FM2.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/FM2/oat/arm/FM2.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/FM2/oat/arm/FM2.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/FM2/oat/arm/FM2.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/NetworkSetting/NetworkSetting.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NetworkSetting/NetworkSetting.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/NetworkSetting/oat/arm/NetworkSetting.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NetworkSetting/oat/arm/NetworkSetting.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/NetworkSetting/oat/arm/NetworkSetting.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/NetworkSetting/oat/arm/NetworkSetting.vdex \
     vendor/cat/s22flip/proprietary/system_ext/app/QtiTelephonyService/oat/arm/QtiTelephonyService.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/QtiTelephonyService/oat/arm/QtiTelephonyService.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/QtiTelephonyService/oat/arm/QtiTelephonyService.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/QtiTelephonyService/oat/arm/QtiTelephonyService.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/SimSettings/SimSettings.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/SimSettings/SimSettings.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/SimSettings/oat/arm/SimSettings.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/SimSettings/oat/arm/SimSettings.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/SimSettings/oat/arm/SimSettings.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/SimSettings/oat/arm/SimSettings.vdex \
     vendor/cat/s22flip/proprietary/system_ext/app/datastatusnotification/oat/arm/datastatusnotification.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/datastatusnotification/oat/arm/datastatusnotification.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/datastatusnotification/oat/arm/datastatusnotification.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/datastatusnotification/oat/arm/datastatusnotification.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/embms/embms.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/embms/embms.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/embms/oat/arm/embms.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/embms/oat/arm/embms.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/embms/oat/arm/embms.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/embms/oat/arm/embms.vdex \
     vendor/cat/s22flip/proprietary/system_ext/app/imssettings/oat/arm/imssettings.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/imssettings/oat/arm/imssettings.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/imssettings/oat/arm/imssettings.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/imssettings/oat/arm/imssettings.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/remotesimlockservice/oat/arm/remotesimlockservice.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/remotesimlockservice/oat/arm/remotesimlockservice.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/remotesimlockservice/oat/arm/remotesimlockservice.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/remotesimlockservice/oat/arm/remotesimlockservice.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/remotesimlockservice/remotesimlockservice.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/remotesimlockservice/remotesimlockservice.apk \
     vendor/cat/s22flip/proprietary/system_ext/app/uceShimService/oat/arm/uceShimService.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/uceShimService/oat/arm/uceShimService.odex \
     vendor/cat/s22flip/proprietary/system_ext/app/uceShimService/oat/arm/uceShimService.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/uceShimService/oat/arm/uceShimService.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/app/uceShimService/uceShimService.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/uceShimService/uceShimService.apk \
     vendor/cat/s22flip/proprietary/system_ext/bin/bt_logger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/bt_logger \
     vendor/cat/s22flip/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/cat/s22flip/proprietary/system_ext/bin/dun-server:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dun-server \
@@ -418,7 +410,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.0.so \
     vendor/cat/s22flip/proprietary/system_ext/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.0.so \
     vendor/cat/s22flip/proprietary/system_ext/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/QtiDialer/QtiDialer.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QtiDialer/QtiDialer.apk \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/QtiDialer/oat/arm/QtiDialer.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QtiDialer/oat/arm/QtiDialer.odex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/QtiDialer/oat/arm/QtiDialer.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QtiDialer/oat/arm/QtiDialer.vdex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/com.qualcomm.location/oat/arm/com.qualcomm.location.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/com.qualcomm.location/oat/arm/com.qualcomm.location.odex \
@@ -437,7 +428,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/xtra_t_app/oat/arm/xtra_t_app.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/xtra_t_app/oat/arm/xtra_t_app.vdex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/xtra_t_app_setup/oat/arm/xtra_t_app_setup.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/xtra_t_app_setup/oat/arm/xtra_t_app_setup.odex \
     vendor/cat/s22flip/proprietary/system_ext/priv-app/xtra_t_app_setup/oat/arm/xtra_t_app_setup.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/xtra_t_app_setup/oat/arm/xtra_t_app_setup.vdex \
-    vendor/cat/s22flip/proprietary/system_ext/priv-app/xtra_t_app_setup/xtra_t_app_setup.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/xtra_t_app_setup/xtra_t_app_setup.apk \
     vendor/cat/s22flip/proprietary/vendor/app/CACertService/oat/arm/CACertService.odex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm/CACertService.odex \
     vendor/cat/s22flip/proprietary/vendor/app/CACertService/oat/arm/CACertService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm/CACertService.vdex \
     vendor/cat/s22flip/proprietary/vendor/app/CneApp/oat/arm/CneApp.odex:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/oat/arm/CneApp.odex \
@@ -788,7 +778,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
     vendor/cat/s22flip/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/cat/s22flip/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
-    vendor/cat/s22flip/proprietary/vendor/etc/init/hw/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
     vendor/cat/s22flip/proprietary/vendor/etc/init/ims_rtp_daemon_legacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon_legacy.rc \
     vendor/cat/s22flip/proprietary/vendor/etc/init/imsdatadaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdatadaemon.rc \
     vendor/cat/s22flip/proprietary/vendor/etc/init/imsqmidaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsqmidaemon.rc \
