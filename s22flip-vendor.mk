@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/system_ext/bin/dun-server:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dun-server \
     vendor/cat/s22flip/proprietary/system_ext/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/perfservice \
     vendor/cat/s22flip/proprietary/system_ext/bin/sg_write_buffer:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/sg_write_buffer \
-    vendor/cat/s22flip/proprietary/system_ext/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/NOTICE.xml.gz \
     vendor/cat/s22flip/proprietary/system_ext/etc/bluetooth/bt_configstore.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/bt_configstore.conf \
     vendor/cat/s22flip/proprietary/system_ext/etc/bluetooth/bt_profile.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/bt_profile.conf \
     vendor/cat/s22flip/proprietary/system_ext/etc/bluetooth/interop_database.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/interop_database.conf \
@@ -582,7 +581,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/cat/s22flip/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/cat/s22flip/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/cat/s22flip/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
     vendor/cat/s22flip/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/cat/s22flip/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/cat/s22flip/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -958,11 +956,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/cat/s22flip/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/cat/s22flip/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@4.0-util.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@6.0-util.so \
     vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
     vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/cat/s22flip/proprietary/vendor/lib/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.composer@2.1-resources.so \
@@ -1022,8 +1015,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/cat/s22flip/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
     vendor/cat/s22flip/proprietary/vendor/lib/hw/activity_recognition.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8937.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl.so \
     vendor/cat/s22flip/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so \
     vendor/cat/s22flip/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/cat/s22flip/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
@@ -2444,7 +2435,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffects.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/libeffectsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffectsconfig.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexthwplugin.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libfastcrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcrc.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
@@ -2681,7 +2671,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
-    vendor/cat/s22flip/proprietary/vendor/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
     vendor/cat/s22flip/proprietary/vendor/lib/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_nr_fusion.so \
@@ -3046,7 +3035,6 @@ PRODUCT_COPY_FILES += \
     vendor/cat/s22flip/proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.memory.pasrmanager@1.1.so \
     vendor/cat/s22flip/proprietary/vendor/lib/vendor.qti.power.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.power.pasrmanager@1.0.so \
     vendor/cat/s22flip/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/cat/s22flip/proprietary/vendor/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm/etc/NOTICE.xml.gz \
     vendor/cat/s22flip/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_VENDOR)/odm/etc/group \
     vendor/cat/s22flip/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/odm/etc/passwd \
     vendor/cat/s22flip/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
